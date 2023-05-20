@@ -19,3 +19,9 @@ $ gcc src/main.c -fopenmp -o main
 ```sh
 $ ./main.exe video/rgb_video.yuv
 ```
+
+Pokretanje pomoću SLURM okruženja (potrebno za UNIRI Bura superračunalo)
+
+```sh
+$ sbatch slurm_script.sh video/rgb_video.yuv
+```
